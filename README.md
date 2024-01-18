@@ -10,10 +10,14 @@ There are few prerequisites to running this python code
   `pip install --upgrade openai`
   `pip3 install --upgrade openai`
 - Setup your API Key by generated a secret key on Openai website https://platform.openai.com/api-keys. Use that key in the .py file before running it
-- You are now ready to run the terminal chatbot with `python 3 chatgpt_chatbot.py`
+- You are now ready to run the terminal chatbot with `python3 chatgpt_chatbot.py`
 
-## Shown here is the response object returned from chat completion call 
+## The Chat completion object 
+Here is the struture of the chat completion object
+
 <img width="447" alt="image" src="https://github.com/waseemvali/Python-ChatGPT-chatbot/assets/61390358/ec987d90-2424-43a4-9bcd-34d7bd44e3de">
+
+For more information visit https://platform.openai.com/docs/api-reference/chat/object
 
 ## References
 * [OpenAI Blog: Introducing ChatGPT and Whisper APIs](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
